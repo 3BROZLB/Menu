@@ -239,3 +239,16 @@ WAVE
   background: linear-gradient(90deg, #F7CE25, #d7ad05); /* Change the background color to #F7CE25 */
   border: none;
 }
+
+.dashed-line {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-top: 5px dashed #0A0A0A;
+  /* Replace #000000 with your desired color */
+  z-index: 9999;
+  width: 100%;
+  margin-bottom: 2%;
+}
