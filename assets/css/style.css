@@ -223,30 +223,16 @@ section {
 }
 
 /*----------------------------------------------------------------------
-WAVE
+DASHED LINE
 -------------------------------------------------------------------*/
-
-.box {
-  --size: 50px;
-  --p: 25px;
-  --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
-  
-  height: 200px;
-
-  -webkit-mask:
-    radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))), #F7CE25 99%, #0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
-    radial-gradient(var(--R) at 50% calc(100% + var(--p)), #0000 99%, #F7CE25 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x;
-  background: linear-gradient(90deg, #F7CE25, #d7ad05); /* Change the background color to #F7CE25 */
-  border: none;
-}
 
 .dashed-line {
   position: absolute;
-  top: 80px;
+  top: 40px;
   left: 0;
   right: 0;
   height: 1px;
-  border-top: 5px dashed #0A0A0A;
+  border-top: 5px dashed #F7CE25;
   /* Replace #000000 with your desired color */
   z-index: 9999;
   width: 100%;
