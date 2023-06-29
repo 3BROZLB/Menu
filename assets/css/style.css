@@ -233,7 +233,20 @@ DASHED LINE
   right: 0;
   height: 1px;
   border-top: 5px dashed #F7CE25;
-  /* Replace #000000 with your desired colhhor */
+  /* Replace #000000 with your desired color */
+  z-index: 9999;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.Full-line {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-top: 5px solid #F7CE25;
+  /* Replace #000000 with your desired color */
   z-index: 9999;
   width: 100%;
   margin-bottom: 2%;
